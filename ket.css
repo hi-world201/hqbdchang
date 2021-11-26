@@ -1,0 +1,83 @@
+body {
+  background-color: #EED7CE;
+}
+
+html {
+  font-family: monospace;
+}
+
+.btn{
+  display:block;
+  background-color: rgb(47, 189, 189);
+  border-radius: 10px;
+  text-align: center;
+  height:30px;
+  width:60%;
+  text-decoration: none;
+  color:chartreuse;
+  font-size: 150%;
+  transform: translate(35%,30%);
+  /* padding-top:1%; */
+}
+
+.text {
+  text-align: justify;
+  font-size: 20px;
+  text-align: center;
+}
+
+.gif {
+  margin-left: 35%;
+  width: 30%;
+}
+
+.gif-boy {
+  width: 100%;
+}
+
+.bye {
+  text-align: center;
+  color: darkblue;
+}
+/* Iphone 5/5s */
+@media screen and (max-width: 321px) {
+  .text {
+    text-align: center;
+  }
+  .gif {
+    margin-left: 25%;
+    width: 50%;
+  }
+  .gif-boy {
+    width: 100%;
+  }
+}
+
+/* Iphone 6/7/8/X */
+@media screen and (min-width: 374px) and (max-width: 413px) {
+  .text {
+    text-align: center;
+  }
+  .gif {
+    margin-left: 25%;
+    width: 50%;
+  }
+  .gif-boy {
+    width: 100%;
+  }
+}
+/* Iphone 6/7/8 + */
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+  .text {
+    text-align: center;
+  }
+  .gif {
+    margin-left: 25%;
+    width: 50%;
+  }
+  .gif-boy {
+    width: 100%;
+  }
+}
+
+/* Iphone X */
